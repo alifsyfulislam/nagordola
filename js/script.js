@@ -18,7 +18,6 @@ bottomOffer.addEventListener('click', bottomOfferF);
 leftOffer.addEventListener('click', leftOfferF);
 
 function topOfferF() {
-    console.log("top");
     container2.className = container2.className.replace('hidden', ' '); //remove shake class
     container1.style.display = "none";
     twoGb.className = twoGb.className.replace('hidden', 'fadeIn'); //remove shake class
@@ -28,7 +27,6 @@ function topOfferF() {
 }
 
 function rightOfferF() {
-    console.log("right");
     container2.className = container2.className.replace('hidden', ' ');
     container1.style.display = "none";
     fiveGb.className = fiveGb.className.replace('hidden', 'fadeIn');
@@ -38,7 +36,6 @@ function rightOfferF() {
 }
 
 function bottomOfferF() {
-    console.log("bottomOffer");
     container2.className = container2.className.replace('hidden', ' ');
     container1.style.display = "none";
     sixGb.className = sixGb.className.replace('hidden', 'fadeIn');
@@ -48,7 +45,6 @@ function bottomOfferF() {
 }
 
 function leftOfferF() {
-    console.log("leftOffer");
     container2.className = container2.className.replace('hidden',' ');
     container1.style.display = "none";
     mb.className = mb.className.replace('hidden', 'fadeIn');
@@ -67,8 +63,7 @@ button.onclick = function () {
 
 container2.onclick = function () {
     container2.classList ? container2.classList.add('hidden') : container2.className += ' hidden';
-    // container1.classList ? container1.classList.add('hidden') : container1.className += ' hidden';
-    container1.style.display = "block";
+    document.location.reload(true);
 }
 
 

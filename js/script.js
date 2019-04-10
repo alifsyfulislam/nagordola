@@ -19,7 +19,7 @@ leftOffer.addEventListener('click', leftOfferF);
 
 function topOfferF() {
     console.log("top");
-    container2.className = container2.className.replace('hidden', 'show'); //remove shake class
+    container2.className = container2.className.replace('hidden', ' '); //remove shake class
     container1.style.display = "none";
     twoGb.className = twoGb.className.replace('hidden', 'fadeIn'); //remove shake class
     setTimeout(function () {
@@ -29,9 +29,9 @@ function topOfferF() {
 
 function rightOfferF() {
     console.log("right");
-    container2.className = container2.className.replace('hidden', ''); //remove shake class
+    container2.className = container2.className.replace('hidden', ' ');
     container1.style.display = "none";
-    fiveGb.className = fiveGb.className.replace('hidden', 'fadeIn'); //remove shake class
+    fiveGb.className = fiveGb.className.replace('hidden', 'fadeIn');
     setTimeout(function () {
         button.style.display = "block";
     },2e3)
@@ -39,7 +39,7 @@ function rightOfferF() {
 
 function bottomOfferF() {
     console.log("bottomOffer");
-    container2.className = container2.className.replace('hidden', ''); //remove shake class
+    container2.className = container2.className.replace('hidden', ' ');
     container1.style.display = "none";
     sixGb.className = sixGb.className.replace('hidden', 'fadeIn');
     setTimeout(function () {
@@ -49,7 +49,7 @@ function bottomOfferF() {
 
 function leftOfferF() {
     console.log("leftOffer");
-    container2.className = container2.className.replace('hidden', ''); //remove shake class
+    container2.className = container2.className.replace('hidden',' ');
     container1.style.display = "none";
     mb.className = mb.className.replace('hidden', 'fadeIn');
     setTimeout(function () {
@@ -72,28 +72,6 @@ container2.onclick = function () {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// topOffer.className = topOffer.className.replace('top_animate', ''); //remove shake class
-// rightOffer.className = rightOffer.className.replace('right_animate', ''); //remove shake class
-// bottomOffer.className = bottomOffer.className.replace('bottom_animate', ''); //remove shake class
-// leftOffer.className = leftOffer.className.replace('left_animate', ''); //remove shake class
-// wheel.className = wheel.className.replace('wheel_animate', ''); //remove shake class
 
 
 

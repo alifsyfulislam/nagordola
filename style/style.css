@@ -104,90 +104,113 @@
 
 
 @keyframes roundRobin12 {
-    0%,100%{
-        top: 35px;
-        left: 132px;
-    }
-
-    25%{
-        top: 95px;
-        left: 195px;
-    }
-    50%{
-        top: 165px;
-        left: 130px;
-    }
-    75%{
-        top: 100px;
-        left: 70px;
-    }
+    0%,100%{top: 35px;left: 132px;}
+    25%{top: 95px;left: 195px;}
+    50%{top: 165px;left: 130px;}
+    75%{top: 100px;left: 70px;}
 }
-
-
+@-webkit-keyframes roundRobin12 {
+    0%,100%{top: 35px;left: 132px;}
+    25%{top: 95px;left: 195px;}
+    50%{top: 165px;left: 130px;}
+    75%{top: 100px;left: 70px;}
+}
+@-moz-keyframes roundRobin12 {
+    0%,100%{top: 35px;left: 132px;}
+    25%{top: 95px;left: 195px;}
+    50%{top: 165px;left: 130px;}
+    75%{top: 100px;left: 70px;}
+}
+@-o-keyframes roundRobin12 {
+    0%,100%{top: 35px;left: 132px;}
+    25%{top: 95px;left: 195px;}
+    50%{top: 165px;left: 130px;}
+    75%{top: 100px;left: 70px;}
+}
 
 
 @keyframes roundRobin23 {
-    0%,100%{
-        top: 95px;
-        left: 195px;
-    }
-
-    25%{
-        top: 165px;
-        left: 130px;
-    }
-    50%{
-        top: 100px;
-        left: 70px;
-    }
-    75%{
-        top: 35px;
-        left: 132px;
-    }
+    0%,100%{top: 95px;left: 195px;}
+    25%{top: 165px;left: 130px;}
+    50%{top: 100px;left: 70px;}
+    75%{top: 35px;left: 132px;}
+}
+@-webkit-keyframes roundRobin23 {
+    0%,100%{top: 95px;left: 195px;}
+    25%{top: 165px;left: 130px;}
+    50%{top: 100px;left: 70px;}
+    75%{top: 35px;left: 132px;}
+}
+@-moz-keyframes roundRobin23 {
+    0%,100%{top: 95px;left: 195px;}
+    25%{top: 165px;left: 130px;}
+    50%{top: 100px;left: 70px;}
+    75%{top: 35px;left: 132px;}
+}
+@-o-keyframes roundRobin23 {
+    0%,100%{top: 95px;left: 195px;}
+    25%{top: 165px;left: 130px;}
+    50%{top: 100px;left: 70px;}
+    75%{top: 35px;left: 132px;}
 }
 
-@keyframes roundRobin34 {
-    0%,100%{
-        top: 165px;
-        left: 130px;
-    }
 
-    25%{
-        top: 100px;
-        left: 70px;
-    }
-    50%{
-        top: 35px;
-        left: 132px;
-    }
-    75%{
-        top: 95px;
-        left: 195px;
-    }
+@keyframes roundRobin34 {
+    0%,100%{top: 165px;left: 130px;}
+    25%{top: 100px;left: 70px;}
+    50%{top: 35px;left: 132px;}
+    75%{top: 95px;left: 195px;}
+}
+@-webkit-keyframes roundRobin34 {
+    0%,100%{top: 165px;left: 130px;}
+    25%{top: 100px;left: 70px;}
+    50%{top: 35px;left: 132px;}
+    75%{top: 95px;left: 195px;}
+}
+@-moz-keyframes roundRobin34 {
+    0%,100%{top: 165px;left: 130px;}
+    25%{top: 100px;left: 70px;}
+    50%{top: 35px;left: 132px;}
+    75%{top: 95px;left: 195px;}
+}
+@-o-keyframes roundRobin34 {
+    0%,100%{top: 165px;left: 130px;}
+    25%{top: 100px;left: 70px;}
+    50%{top: 35px;left: 132px;}
+    75%{top: 95px;left: 195px;}
 }
 
 @keyframes roundRobin41 {
-    0%,100%{
-        top: 100px;
-        left: 70px;
-    }
-
-    25%{
-        top: 35px;
-        left: 132px;
-    }
-    50%{
-        top: 95px;
-        left: 195px;
-    }
-    75%{
-        top: 165px;
-        left: 130px;
-    }
+    0%,100%{top: 100px;left: 70px;}
+    25%{top: 35px;left: 132px;}
+    50%{top: 95px;left: 195px;}
+    75%{top: 165px;left: 130px;}
+}
+@-webkit-keyframes roundRobin41 {
+    0%,100%{top: 100px;left: 70px;}
+    25%{top: 35px;left: 132px;}
+    50%{top: 95px;left: 195px;}
+    75%{top: 165px;left: 130px;}
+}
+@-moz-keyframes roundRobin41 {
+    0%,100%{top: 100px;left: 70px;}
+    25%{top: 35px;left: 132px;}
+    50%{top: 95px;left: 195px;}
+    75%{top: 165px;left: 130px;}
+}
+@-o-keyframes roundRobin41 {
+    0%,100%{top: 100px;left: 70px;}
+    25%{top: 35px;left: 132px;}
+    50%{top: 95px;left: 195px;}
+    75%{top: 165px;left: 130px;}
 }
 
 .hidden{
     display: none;
+}
+
+.show{
+    display: block;
 }
 
 .offer_box{
@@ -196,7 +219,7 @@
 
 .fadeIn {
     animation-name: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: both
 }
 
@@ -204,7 +227,7 @@
 
 @keyframes fadeIn {
     from {
-        opacity: 0
+        transform: scale(0);
     }
 }
 

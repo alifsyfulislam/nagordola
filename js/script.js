@@ -19,12 +19,12 @@ leftOffer.addEventListener('click', leftOfferF);
 
 function topOfferF() {
     console.log("top");
-    container2.className = container2.className.replace('hidden', ''); //remove shake class
+    container2.className = container2.className.replace('hidden', 'show'); //remove shake class
     container1.style.display = "none";
     twoGb.className = twoGb.className.replace('hidden', 'fadeIn'); //remove shake class
     setTimeout(function () {
         button.style.display = "block";
-    },1000)
+    },2e3)
 }
 
 function rightOfferF() {
@@ -34,7 +34,7 @@ function rightOfferF() {
     fiveGb.className = fiveGb.className.replace('hidden', 'fadeIn'); //remove shake class
     setTimeout(function () {
         button.style.display = "block";
-    },1000)
+    },2e3)
 }
 
 function bottomOfferF() {
@@ -44,7 +44,7 @@ function bottomOfferF() {
     sixGb.className = sixGb.className.replace('hidden', 'fadeIn');
     setTimeout(function () {
         button.style.display = "block";
-    },1000)
+    },2e3)
 }
 
 function leftOfferF() {
@@ -54,7 +54,7 @@ function leftOfferF() {
     mb.className = mb.className.replace('hidden', 'fadeIn');
     setTimeout(function () {
         button.style.display = "block";
-    },1000)
+    },2e3)
 }
 
 
@@ -66,7 +66,8 @@ button.onclick = function () {
 
 
 container2.onclick = function () {
-    container2.classList ? container2.classList.add('hidden') : element_3_1.className += ' hidden';
+    container2.classList ? container2.classList.add('hidden') : container2.className += ' hidden';
+    // container1.classList ? container1.classList.add('hidden') : container1.className += ' hidden';
     container1.style.display = "block";
 }
 

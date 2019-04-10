@@ -1,11 +1,9 @@
-
 let topOffer = document.querySelector('.offer_1');
 let rightOffer = document.querySelector('.offer_2');
 let bottomOffer = document.querySelector('.offer_3');
 let leftOffer = document.querySelector('.offer_4');
 let container1 = document.querySelector('.container1');
 let container2 = document.querySelector('.container2');
-let wheel = document.getElementById('wheel');
 let twoGb = document.querySelector('.two_gb');
 let fiveGb = document.querySelector('.five_gb');
 let sixGb = document.querySelector('.six_gb');
@@ -68,7 +66,7 @@ button.onclick = function () {
 
 
 container2.onclick = function () {
-    container2.style.display = "none";
+    container2.classList ? container2.classList.add('hidden') : element_3_1.className += ' hidden';
     container1.style.display = "block";
 }
 
